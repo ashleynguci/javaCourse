@@ -17,3 +17,6 @@ By definition, the factorial 0! is 1.
 **#ValidateFirst**:Create a program called ValidateFirst that inputs a grade number from the user. If the inputted value cannot be converted to an integer, the program should print "Please enter an integer." Otherwise, the program should print "OK".
 
 **#PositiveOddInteger**: Create a program called PositiveOddIntegers that inputs values from the user until he/she decides to quit by entering the text "quit". The program should check if the inputted value is a positive odd integer. NB! Use the remainder operator in this exercise.
+
+**#Product of digits**
+Create a program called ProductOfDigits that first inputs an integer from the user. Then the program computes and prints the product of the digits of the integer. Use the remainder operator in this exercise. Hint: In Java, 2019 / 10 is 201.
