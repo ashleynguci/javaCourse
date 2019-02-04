@@ -15,3 +15,4 @@ By definition, the factorial 0! is 1.
 **#ValidateSecond:** Create a program called ValidateSecond that inputs a grade number (0-5) from the user. If the inputted value is not valid integer between 0 and 5, the program should print "Please enter an integer between 0 and 5." Otherwise, the program should print "OK".
 
 **#ValidateFirst**:Create a program called ValidateFirst that inputs a grade number from the user. If the inputted value cannot be converted to an integer, the program should print "Please enter an integer." Otherwise, the program should print "OK".
+**#PositiveOddInteger**: Create a program called PositiveOddIntegers that inputs values from the user until he/she decides to quit by entering the text "quit". The program should check if the inputted value is a positive odd integer. NB! Use the remainder operator in this exercise.
