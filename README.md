@@ -20,3 +20,13 @@ By definition, the factorial 0! is 1.
 
 **#Product of digits**
 Create a program called ProductOfDigits that first inputs an integer from the user. Then the program computes and prints the product of the digits of the integer. Use the remainder operator in this exercise. Hint: In Java, 2019 / 10 is 201.
+
+**#MethodsSecond**Create a program called MethodsSecond that has a method called printRectangle that prints a 'rectangle shape' based on the given width and height. The main method first inputs width and height from the user and then calls the printRectangle method with the width and height.
+* A rectangle should be printed with the letter 'x' as shown in the example output.
+
+**#MethodsFactorial**Create a program called MethodsFactorial that has a method called factorial that accepts an integer as its input parameter and returns the factorial of the integer. See the previous "Factorial" exercise for more details. The factorial method should not print anything.
+The main method should print factorials of 1...9 as shown in the example output. To determine the factorial of each number, the main method should call the factorial method. Use a loop in the main method.
+
+**#MethodsLibrary**Create a class called MethodsLibrary for storing generic methods. That is, the MethodsLibrary class is a method library class and it does not have the main method. Copy your already existing code of the factorial method to the MethodsLibrary class and do the minor modification to make the method accessible from outside of the MethodsLibrary class.
+Create a program called MethodsUseLibraryClass that uses the method factorial of the MethodsLibrary class. The main method inputs an integer from the user and calls the factorial method of the MethodsLibrary class to get the factorial of the integer. Finally, the main method prints the result.
+
