@@ -19,6 +19,7 @@ public class StringPalindrome {
 
 	public static boolean isPalindrome(String input) {
 		if (input.matches("[a-zA-Z\\s,.:;!?\'\"-]{1,}") == false) {
+			/* (-) should put at the end, if not it will think it's a range */
 			return false;
 		}
 		char[] charArray = input.toLowerCase().replaceAll("[^a-zA-Z]{1,}", "").toCharArray();
